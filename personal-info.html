@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <header>
+    </header>
+    <section class="mainBody">
+        <div class="side">
+            <div class="invite"></div>
+        <div class="profileBox"></div>
+        </div>
+        <div class="middle">
+    <div class="infoBox">
+        <div class="infoHead">
+           اطلاعات شخصی
+
+        </div> 
+        <div class="infoBody">
+            <div class="fullName">
+                <div>
+                    <div>نام و نام خانوادگی</div>
+                <div id="fullName">arezoo sadeghi</div>
+                </div>
+                
+                <div class="editBtn">
+                    <button  id="nameBtn" onclick="showEditBox()">ویرایش</button>
+                </div>
+            </div>
+            <div class="meliCode">
+                <div>
+                    <div>کد ملی</div>
+                <div id="meliCode">12345678</div>
+                </div>
+                <div class="editBtn">
+                    <button  id="meliBtn">ویرایش</button>
+                </div>
+            </div>
+            <div class="phoneNumb">
+                <div>
+                    <div>شماره تلفن همراه</div>
+                   <div id="phoneNumb">09385391844</div>
+                </div>
+                
+                <div class="editBtn">
+                    <button  id="phoneBtn">ویرایش</button>
+                </div>
+            </div>
+            <div class="email">
+                <div>
+                    <div>پست الکترونیک</div>
+                    <div id="email">arezoo.sdh@gmail.com</div>
+                </div>
+                <div class="editBtn">
+                    <button  id="emailBtn">ویرایش</button>
+                </div>
+            </div>
+            <div class="birthDate">
+                <div>
+                    <div>تاریخ تولد</div>
+                    <div id="birthDate">1375/06/19</div>
+                </div>
+                
+                <div class="editBtn">
+                    <button  id="birthBtn">ویرایش</button>
+                </div>
+            </div>
+            <div class="job">
+                <div>
+                    <div>شغل</div>
+                    <div id="job">---</div>
+                </div>
+                <div class="editBtn">
+                    <button  id="jobBtn">ویرایش</button>
+                </div>
+            </div>
+            <div class="sheba">
+                <div>
+                    <div>روش بازگرداندن وجه</div>
+                    <div id="sheba">---</div>
+                </div>
+                <div class="editBtn">
+                    <button  id="shebaBtn">ویرایش</button>
+                </div>
+            </div>
+            <div class="password">
+                <div>
+                    <div>رمز عبور</div>
+                    <div id="password">*********</div>
+                </div>
+                <div class="editBtn">
+                    <button  id="passwordBtn">ویرایش</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="extraInfo"></div>
+    <div class="editName edit">
+        <div class="editHead">
+            <div>نام و نام خانوادگی</div>
+            <button class="closeBtn" onclick="hideBox()">بستن</button>
+        </div>
+        <form class="form">
+            <div><label for="firstName">نام</label>
+            <br/>
+            <input type="text" id="firstName"/>
+            <br/>
+            <br/>
+            <label for="lastName">نام خانوادگی</label>
+            <br/>
+            <input type="text" id="lastName"/>
+            <br/>
+            <br/>
+            <br/>
+        </div>
+            
+            <input class="submitBtn" type="submit" value="ثبت اطلاعات">
+        </form>
+        
+    </div>
+</div>
+</section>
+
+<script src="jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
